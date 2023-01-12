@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="../assets/css/_reset.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/producto.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/agregar-producto.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--Fontawesone-->
+    <script src="https://kit.fontawesome.com/893ca4dba1.js" crossorigin="anonymous"></script>
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/index.html">
+                <img src="../assets/img/logo/Vector.png" alt="">
+                <img src="../assets/img/logo/AluraGeek.png" alt="">
+                <img src="../assets/img/logo/AluraGeek (1).png" alt="">
+            </a>
+        </div>
+        <form action="" class="d-flex" role="search">
+            <a class="btnAdministrador" href="./login.html">Login</a>
+            <input class="espacioBusqueda" type="search" placeholder="Search" aria-label="Search">
+            <button><img src="../assets/img/Vector.png" alt=""></button>
+        </form>
+    </header>
+    <main>
+        <section class="producto">
+            <div id="hero-producto-div" class="productoPrincipal">
+                <img src="../assets/img/starwars1.png" alt="star1">
+                <div class="texto">
+                    <h3>Producto XYZ</h3>
+                    <h6>$60,00</h6>
+                    <p>Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="similares">
+            <h2>Productos similares</h2>
+            <div class="productos-contenedor">
+                <div class="prod-holder prod1">
+                    <div class="produto">
+                        <img src="../assets/img/consolas1.png" alt="cons1">
+                        <p class="descripcion">Consola XYZ</p>
+                        <h6>60,00</h6>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+                
+                <div class="prod-holder prod2">
+                    <div class="produto">
+                        <img src="../assets/img/starwars2.png" alt="star2">
+                        <p class="descripcion">Producto XYZ</p>
+                        <h6>60,00</h6>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="prod-holder prod3">
+                    <div class="produto">
+                        <img src="../assets/img/starwars3.png" alt="star3">
+                        <p class="descripcion">Producto XYZ</p>
+                        <h6>60,00</h6>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="prod-holder prod4">
+                    <div class="produto">
+                        <img src="../assets/img/starwars4.png" alt="star4">
+                        <p class="descripcion">Producto XYZ</p>
+                        <h6>60,00</h6>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="prod-holder prod5">
+                    <div class="produto">
+                        <img src="../assets/img/starwars5.png" alt="cons5">
+                        <p class="descripcion">Producto XYZ</p>
+                        <p class="precio">60,00</p>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+                <div class="prod-holder prod6">
+                    <div class="produto">
+                        <img src="../assets/img/starwars6.png" alt="cons6">
+                        <p class="descripcion">Producto XYZ</p>
+                        <p class="precio">60,00</p>
+                        <a href="">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+            <div id="productos-div-similares" class="productos-div contenedor"></div>
+        </section>
+        <div data-footer>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado por 
+            <a href="https://github.com/zoptein">zoptein</a> </p>
+        <p>2022</p>
+     </footer>
+ 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+     <script src="../controllers/footer.js"></script>
+     <script src="../controllers/validaciones.js"></script>
+</body>
+</html>
